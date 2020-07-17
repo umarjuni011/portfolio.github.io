@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Umar Azam</title>
+    <link rel="icon" href="images/logo.jpg">
+
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <style>
+    /* Styles for mhd3v.com */
+
+      @media screen and (max-width: 767px) {
+          body {
+              font-size: 0.9em;
+          }
+      }
+
+      @media screen and (min-width: 768px) {
+          body {
+              font-size: 1em;
+          }
+      }
+
+      @media screen and (min-width: 992px) {
+          body {
+              font-size: 1.2em;
+          }
+      }
+
+      @media screen and (min-width: 1200px) {
+          body {
+              font-size: 1.3em;
+          }
+      }
+
+      body {
+        font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", "sans-serif" !important;
+        margin: 0;
+        padding: 0;
+      }
+
+      .nav a{
+        color: white !important;
+        font-size: 1.4em !important;
+      }
+
+      .navbar-fixed-top .active a {
+        background-color: black !important; 
+        color: #08aad1 !important;
+      }
+      
+      .nav a:hover {
+        color: #08aad1 !important;
+        text-decoration: underline !important;
+      }
+
+      .navbarButton {
+        background-color: transparent !important;
+        color: white !important;
+        text-decoration: none ;
+      }
+
+      .navbar.navbar-inverse {
+        border-radius: 0px;
+        border: none;
+      }
+
+      .navbar-brand {
+        margin-top: 10px;
+        margin-left: 50px;
+        height: 70px;
+        width:72px;
+        background-image: url("images/logo.jpg");
+        background-size:cover;
+      }
+
+      .navbar-toggle {
+        font-size: 1.4em;
+        color: white;
+        border:none;
+      }
+
+      .heading{
+        font-weight: bold;
+        color: #18191b;
+        padding-top: 80px;
+        font-size: 310%;
+        text-align: center;
+      }
+      
+      #landingPanel {
+        background-image: url("images/b.jpg");
+        width: 100%;
+        background-size:cover;
+      }
+
+      #introductionDiv {
+        width: 75%;
+        text-align: center;
+      }
+
+      #nameHeader {
+        margin-top: -70px;
+        color: white;
+        font-size: 4.1em;
+        text-align: center;
+      }
+
+      #fieldHeader {
+        margin-top: -4px;
+        text-align: center;
+        font-family: monospace;
+        color: green;
+        text-transform: uppercase;
+        font-size: 2.0em;
+        letter-spacing: 0.1em;
+      }
+
+      .transparent {
+        background: rgba(0,0,0,0.4);
+      }
+
+      #imageCircle {
+
+        margin: 190px auto;
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        background-color: transparent;
+      }
+
+      #footerDiv {
+        background-color: white;
+        height: 30%;
+        width: 100%;
+      }
+
+      .footerContent {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      .footerImgPading {
+        margin-bottom: 5px;
+      }
+
+      #buttonList {
+        padding: 0;
+        width: 100%;
+        margin: 0 auto;
+        list-style: none;
+        text-align: center;
+      }
+
+      #buttonList li {
+        width: 13%;
+        display: inline-block !important;
+        padding-top: 14px;
+
+        text-align: center;
+      }
+
+      #buttonList li:hover {
+        color: white;
+        background-color: #1191af;
+        border-radius: 10px;
+      }
+
+      a{
+        margin: 0;
+        padding: 0;
+        color: #08aad1;
+      }
+
+      a:hover {
+        color:#08aad1;
+        text-decoration: underline;
+      }
+
+      *:focus {
+        outline: none;
+      }
+
+      #portfolioDiv {
+        width: 100%;
+         background-image: url("images/a1.jpg") ;
+      }
+
+      #portfolioDiv h2 {
+        margin-top: 30px;
+        color: #d7ddec;
+      }
+
+      .row2 {
+        margin: 0 auto;
+      }
+
+      .portfolioHeaders {
+        font-family: 'Montserrat', sans-serif;
+        color: #d7ddec !important;
+      }
+
+      .topDiv {
+        position: absolute;
+        z-index: 2;
+      }
+
+      .lowerDiv {
+        position: absolute;
+        z-index: 1;
+      }
+
+      #emptyDiv {
+        position: relative;
+        z-index: 80;
+      }
+
+      .row1 {
+        width: 85%;
+        margin: 0 auto;
+      }
+
+      .cols {
+        margin: 0 auto;
+        margin-left:2%;
+        margin-bottom: 10px;
+        padding: 0;
+      }
+
+      .modalButtons {
+        border: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .modalHeading{
+        color: #18191b !important;
+      }
+
+      .footerButtons {
+        background: transparent ;
+        border: none ;
+        width: 100%;
+        height: 100%;
+        outline:none;
+      }
+
+      .main-title {
+        font-weight: bold;
+        margin-top: -85px;
+        text-align: center;
+        margin-bottom: 5px;
+        color: #f9f1e9;
+        text-transform: uppercase;
+        font-size: 4.2em;
+        letter-spacing: 0.1em;
+      }
+
+      .main-title .thin {
+        font-weight: 100;
+      }
+           
+        
+.timeline {
+  position: relative;
+  padding: 0;
+  list-style: none;
+}
+.timeline:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 40px;
+  width: 2px;
+  margin-left: -1.5px;
+  content: "";
+  background-color: #e9ecef;
+}
+.timeline > li {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 50px;
+}
+.timeline > li:after, .timeline > li:before {
+  display: table;
+  content: " ";
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li .timeline-panel {
+  position: relative;
+  float: right;
+  width: 100%;
+  padding: 0 20px 0 100px;
+  text-align: left;
+}
+.timeline > li .timeline-panel:before {
+  right: auto;
+  left: -15px;
+  border-right-width: 15px;
+  border-left-width: 0;
+}
+.timeline > li .timeline-panel:after {
+  right: auto;
+  left: -14px;
+  border-right-width: 14px;
+  border-left-width: 0;
+}
+.timeline > li .timeline-image {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  margin-left: 0;
+  text-align: center;
+  color: white;
+  border: 7px solid #e9ecef;
+  border-radius: 100%;
+  background-color:aliceblue;
+}
+.timeline > li .timeline-image h4 {
+  font-size: 10px;
+  line-height: 14px;
+  margin-top: 12px;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+  padding: 0 20px 0 100px;
+  text-align: left;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  right: auto;
+  left: -15px;
+  border-right-width: 15px;
+  border-left-width: 0;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  right: auto;
+  left: -14px;
+  border-right-width: 14px;
+  border-left-width: 0;
+}
+.timeline > li:last-child {
+  margin-bottom: 0;
+}
+.timeline .timeline-heading h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.timeline .timeline-heading h4.subheading {
+  text-transform: none;
+}
+.timeline .timeline-body > ul,
+.timeline .timeline-body > p {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .timeline:before {
+    left: 50%;
+  }
+  .timeline > li {
+    min-height: 100px;
+    margin-bottom: 100px;
+  }
+  .timeline > li .timeline-panel {
+    float: left;
+    width: 41%;
+    padding: 0 20px 20px 30px;
+    text-align: right;
+  }
+  .timeline > li .timeline-image {
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+  }
+  .timeline > li .timeline-image h4 {
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 16px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    padding: 0 30px 20px 20px;
+    text-align: left;
+  }
+}
+@media (min-width: 992px) {
+  .timeline > li {
+    min-height: 150px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px;
+  }
+  .timeline > li .timeline-image {
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+  }
+  .timeline > li .timeline-image h4 {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 30px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 20px 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .timeline > li {
+    min-height: 170px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px 100px;
+  }
+  .timeline > li .timeline-image {
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
+  }
+  .timeline > li .timeline-image h4 {
+    margin-top: 40px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 100px 20px 20px;
+  }
+}
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+    </style>
+
+  </head>
+
+    <body data-spy="scroll" data-target=".navbar-collapse">
+
+    <div id="top"></div>
+
+    <div class="wrapper">
+
+      <div class="navbar transparent navbar-inverse navbar-fixed-top">
+
+        <div class="container">
+
+          <div class="navbar-header">
+
+            <button class="navbar-toggle btn btn-default navbarButton" data-toggle="collapse" data-target =".navbar-collapse">
+              MENU
+            </button>
+
+            <a class="navbar-brand" href="#top"></a>
+
+          </div>
+
+          <div class="collapse navbar-collapse">
+
+            <ul class="nav navbar-nav navbar-right navItems pull-right">
+              <li><a href="#intro">ABOUT ME</a></li>
+              <li><a href="#portfolio">PORTFOLIO</a></li>
+              <li><a href="#CV">CV</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div>
+        <div class="topDiv" id="large-header">
+          <canvas id="demo-canvas" ></canvas>
+        </div>
+    </div>
+
+
+    <div class="container contentContainer lowerDiv" id="landingPanel">
+
+        <div class="row">
+
+          <div id="imageCircle">
+            
+          </div>
+
+          <h1 class="main-title pull-up">Welcome to <span class="thin">My Portfolio</span></h1>
+            <br>
+          <h2 class="main-title small "id="fieldHeader"> Computer Scientist</h2>
+          
+
+        </div>
+
+    </div>
+
+    <div id="emptyDiv"></div>
+
+      <div id="intro"></div>
+
+      <div class="container " id="introductionDiv">
+
+        <div class="row">
+
+          <h2 class="heading">ABOUT ME </h2>
+          
+          <p class="lead">
+            I am Umar Azam Qureshi, I have graduated in BCS(Bacholers of Computer Sciences) from Comsats University. 
+          
+            I'm a Data Science aspirant and i have skill set to backup my goals that i want to achive.I'm always huting to polish my skills as much as i can, eiher its writing a program, either its i have to do research on a particular topic methods.
+    
+          </p>
+
+        </div>
+          <!--
+          
+<ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt=""></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2009-2011</h4>
+                                <h4 class="subheading">Our Humble Beginnings</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt=""></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>March 2011</h4>
+                                <h4 class="subheading">An Agency is Born</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt=""></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>December 2012</h4>
+                                <h4 class="subheading">Transition to Full Service</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt=""></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>July 2014</h4>
+                                <h4 class="subheading">Phase Two Expansion</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                Be Part
+                                <br>
+                                Of Our
+                                <br>
+                                Story!
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+          -->
+    </div>
+
+    <div id="portfolio"></div>
+            
+    <div class="container contentContainer" id="portfolioDiv">
+
+      <h2  class="heading">PORTFOLIO</h2>
+
+      <div class="row row1">
+
+        <div class="col-md-4">
+
+            <h2 class="portfolioHeaders">Time Series Analysis</h2>
+            <button type="button" class="modalButtons" data-toggle="modal" data-target="#FilteredMessaging">
+            <img src="images/TimeSeries.jpg" width="100%" height="100%">
+            </button>
+  
+        </div>
+
+        <div class="col-md-4">
+
+
+        </div>
+
+  <div class = "col-md-4 ">
+
+            
+          <h2 class="portfolioHeaders">CNN</h2>
+          <button type="button" class="modalButtons" data-toggle="modal" data-target="#JobPortal">
+          <img src="images/im.jpg" width="150%" height="160%">
+          </button>
+          </div>
+
+        
+
+
+      </div>
+
+      <div class="row row1">
+
+          <div class = "col-md-4 ">
+
+              <h2 class="portfolioHeaders">Classifiers</h2>
+              <button type="button" class="modalButtons" data-toggle="modal" data-target="#netlogoModal">
+              <img src="images/cl.jpg" width="152%">
+              </button>
+    
+          </div>
+          
+          
+          <div class = "col-md-4 ">
+          </div>
+          
+        <div class="col-md-4">
+
+          <h2 class="portfolioHeaders">Human Emotion Detection</h2>
+          <button type="button" class="modalButtons" data-toggle="modal" data-target="#enrepublicModal">
+          <img src="images/ed.jpg" width="140%" height="150%">
+          </button>
+
+        </div>
+
+
+
+      </div>
+
+
+       <!-- Ecommerce Modal -->
+       <div id="FilteredMessaging" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Land Surface Temprature(LST) prediction using LSTM (2020)</h4>
+            </div>
+            <div class="modal-body">
+              <p>
+                  Using Surface Temprature data and applying LSTM model to predict the Surface Temprature of month May 2020.
+                  <br><br>
+              </p>
+
+              <p>
+                For this prediction We have used LSTM model for the time series anaysis <br>
+                <li>Can predict the time-series data for the month May 2020.       </li>         
+                <li>visualization using matplotlib.</li>  
+                <li>Gives acuracy of the model.                     </li>                       
+                            
+              </p>
+
+              <p>
+                  These projects were done to polish my skillset.
+              </p>
+
+              <ul>
+                  <li>Python</li>
+                  <li>Tensorflow</li>
+                  <li>keras</li>
+                    
+                </ul>
+                
+
+              <h5>
+             <!--     To view the project visit here <a href="https://github.com/N-scorpioxx/E-Commerce-Website-ASP.NET/">Github</a>.   -->
+              </h5> <br><br>
+
+              <img src="images/ECOM/l1.PNG" width="100%" height="60%">
+              <img src="images/ECOM/l2.PNG" width="100%" height="60%">
+              <img src="images/ECOM/l3.PNG" width="100%" height="60%">
+              <img src="images/ECOM/l4.PNG" width="100%" height="60%">
+              <img src="images/ECOM/l5.PNG" width="100%" height="60%">
+              <img src="images/ECOM/l6.PNG" width="100%" height="60%">
+              <img src="images/ECOM/l7.PNG" width="100%" height="60%">
+              <img src="images/ECOM/l8.PNG" width="100%" height="60%">
+
+
+
+
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- JobPortal Modal -->
+      <div id="JobPortal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">convolutional neural network (CNN) </h4>
+            </div>
+            <div class="modal-body">
+              <p>
+                Computers see images using pixels. Pixels in images are usually related. For example, a certain group of pixels may signify an edge in an image or some other pattern. Convolutions use this to help identify images. A convolution multiplies a matrix of pixels with a filter matrix or ‘kernel’ and sums up the multiplication values. Then the convolution slides over to the next pixel and repeats the same process until all the image pixels have been covered 
+ 
+              </p>
+
+              <p>
+                The optimizer controls the learning rate. We will be using ‘adam’and ‘rmsprop’ as our optimizer. The learning rate determines how fast the optimal weights for the model are calculated. A smaller learning rate may lead to more accurate weights (up to a certain point), but the time it takes to compute the weights will be longer
+              </p>
+
+              <p>
+                Some of the basic functionalities include: 
+              </p>
+
+              <p>Major technologies used:</p>
+              
+              <ul>
+                <li>Python</li>
+                <li>TensorFlow</li>
+                <li>Kreas</li>
+                <li>matplotlib</li>
+                
+              </ul>
+              <!--
+              <h5>
+                Source code is available on my <a href="https://github.com/N-scorpioxx/Job-Portal-System" target="_blank">Github</a>.
+              </h5>
+                -->
+                <br><br>
+                
+              <img src="images/JOB/c0.PNG" width="100%" height="60%">
+              <img src="images/JOB/c1.PNG" width="100%" height="60%">
+              <img src="images/JOB/c2.PNG" width="100%" height="60%">
+              <img src="images/JOB/c3.PNG" width="100%" height="60%">
+              <img src="images/JOB/c4.PNG" width="100%" height="60%">
+              <img src="images/JOB/c5.PNG" width="100%" height="60%">
+              
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Online Quiz Portal Modal -->
+      <div id="enrepublicModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+            
+            
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Online Quiz Portal</h4>
+            </div>
+            <div class="modal-body">
+              <p>
+              For the subject of Machine Learning we developed a python based software which wil detect human emotions (angry, sad, happy, worried etc) from audio data<br>
+              Depending on the freqquncy of audio data The dataset which we used was CREAMA-D which included 7500 tuples<br>
+              Main algorithms used were
+              </p>
+              <ul>
+                  <li>KNN (Know nearest Neighbour)</li>
+                  <li>Decesion Tree</li>
+                  <li>Random Forest Tree (Highest Accuracy)</li>
+                  <li>SVM</li>
+              </ul>
+              <p>Main languages used are :</p>
+               <ul>
+                  <li>Python</li>
+                  <li>Jupiter Notebook</li>
+                </ul>
+
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- DS Modal -->
+      <div id="dataStructuresModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Movie Index System</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Online Quiz System is designed as a seperate module for Job portal That users can take a quiz while applying for a job.<br>
+                    Based on the results employers can evaluate the candidates best suited for the Job.<br><br>
+                    <strong>Admin</strong> can make Quizzes on the portal from their login. That will be taken by the candidate 
+                    </p>
+                    <p>Main Technologies used are :</p>
+                     <ul>
+                        <li>PHP</li>
+                        <li>Bootstrap</li>
+                        <li>MySQL</li>
+                        <li>HTML & CSS</li>
+                      </ul>
+              <p> You can check out the whole project over at <a href="https://github.com/N-scorpioxx/ONLINE-quiz-System">Github</a>.
+              </p>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- MiscModal Modal -->
+      <div id="miscModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Different things I've done over the years</h4>
+            </div>
+            <div class="modal-body">
+              <h2 class="modalHeading">LineageOS Development</h2>
+              <p>A project was assigned to me to develope a full fledge ERP-Solution for a islamabad Based Tech company in my capacity as a <strong>Team Lead</strong><br><br>
+              Planning , Architecture level Designing , Documentation was purely done by me. While developement phase was a joint work with the team.
+              the Motivation behind the project was to automate all the workflows in any organization to better and efficient work.
+            </p>
+            <p>
+              Technology Used are
+              <ol>
+                <li>JAVA-EE Framework</li>
+                <li>MSSQL Server</li>
+                <li>bootstrap</li>
+                <li>HTML/CSS/JS</li>
+              </ol>
+            </p>
+            <img src="images/ERP/e1.png" width="100%" height="60%">
+            <img src="images/ERP/e2.png" width="100%" height="60%">
+            <img src="images/ERP/e3.png" width="100%" height="60%">
+            <img src="images/ERP/e4.png" width="100%" height="60%">
+            <img src="images/ERP/e5.png" width="100%" height="60%">
+           
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div id="netlogoModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Classifiers </h4>
+            </div>
+            <div class="modal-body">
+              
+              <p>
+                In this project i have classsified the data using various algorithms 
+                  <br>
+
+              </p>
+
+              <p>
+                The algos that are being used <br>
+                <ol>
+                  <li>KNeighborsClassifier</li>
+                  <li>RandomForestClassifier</li>
+                  <li>LogisticRegression</li>
+                </ol>
+                
+        
+                Tehnologies and libraries used are
+                <ul>
+                    <li>Python</li>
+                    <li>Sklearn</li>
+                    <li>Pandas</li>
+                    <li>Matplotlib</li>
+                  </ul>
+              </p>
+<!--
+              <h5>
+                You can find the complete project <a href="https://github.com/N-scorpioxx/Windows-Based-Voting-system">Github</a>.
+              </h5> <BR><br>
+-->
+            </div>
+
+                        <img src="images/VOTING/r1.PNG" width="100%" height="60%">
+                        <img src="images/VOTING/r2.PNG" width="100%" height="60%">
+                        <img src="images/VOTING/r3.PNG" width="100%" height="60%">
+                        <img src="images/VOTING/r4.PNG" width="100%" height="60%">
+                        <img src="images/VOTING/r5.PNG" width="100%" height="60%">
+                        <img src="images/VOTING/r6.PNG" width="100%" height="60%">
+                        <img src="images/VOTING/r7.PNG" width="100%" height="60%">
+                        <img src="images/VOTING/r8.PNG" width="100%" height="60%">
+                        <img src="images/VOTING/r9.PNG" width="100%" height="60%">
+                        <img src="images/VOTING/r10.PNG" width="100%" height="60%">
+                        <img src="images/VOTING/r11.PNG" width="100%" height="60%">
+                        
+            
+            
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+    
+    
+    
+      <div class="container " id="introductionDiv">
+
+        <div class="row">
+
+          <h2 class="heading">SKILLS </h2>
+            <br>
+            <br>
+          
+            <div class="row row1">
+             <button type="button" class="modalButtons" data-toggle="modal" data-target="None">
+          <img src="images/p.png" width="100%" height="100%">
+                
+          
+                 
+        
+        
+          <button type="button" class="modalButtons" data-toggle="modal" data-target="None">
+          <img src="images/kerastensor.jpg" width="100%" height="100%">
+          </button>
+
+            </div>
+        
+        <div class="col-md-4">
+
+        
+          <button type="button" class="modalButtons" data-toggle="modal" data-target="None">
+          <img src="images/machine.jpg" width="100%" height="100%">
+          </button>
+        
+        </div>
+                
+                
+        <div class="col-md-4">
+                </div>
+                
+                
+        <div class="col-md-4">
+
+        
+          <button type="button" class="modalButtons" data-toggle="modal" data-target="None">
+          <img src="images/fl.png" width="100%" height="100%">
+          </button>
+
+        </div>
+                   
+            </div>
+              
+            <div class="col-min-4">
+             <button type="button" class="modalButtons" data-toggle="modal" data-target="None">
+          <img src="images/g.png" width="100%" height="100%">
+                
+          </button>
+         
+          
+           
+             <button type="button" class="modalButtons" data-toggle="modal" data-target="None">
+          <img src="images/sk.png" width="100%" height="100%">
+                
+          </button>
+            </div> 
+          
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            
+
+          <p class="lead">
+            I am a Data Science aspirant and i have skill set to backup my goals that i want to achive. 
+              I'm always huting to polish my skills as much as i can, eiher its writing a program, either its i have to do research on a particular topic methods.
+    
+          </p>
+
+        </div>
+
+    </div>
+    
+    
+    
+    
+
+    <div id="CV"></div>
+    <div class="container" id="footerDiv">
+
+        <div class="row footerContent">
+
+         <h2 class="heading">Download MY CV here</h2>
+            <br>
+         <h3><a style="padding-left: 790px" href="docs/CV.pdf" download="CV">Click here</a></h3>
+            
+ 
+        </div>
+
+    </div>
+
+    <div id="contact"></div>
+    <div class="container" id="footerDiv">
+
+          <div class="row footerContent">
+
+           <h2 class="heading">CONTACT</h2>
+
+                  <ul class="row" id="buttonList">
+
+                     
+                      <li class="email">
+                          <button class = "footerButtons" onclick="location.href = 'mailto:umarjuni011@gmail.com';" >
+                            <img class="footerImgPading email2" src="images/email.png" height="50px" width="50px"><br>
+                            <span class="email2 footerLinks">Official Email</span>
+                          </button>
+                         </li>
+
+                      <li class="github">
+                       <button class = "footerButtons" onclick="location.href = 'https://github.com/umarjuni011/';" >
+                         <img class="footerImgPading github1" src="images/git.png" height="50px" width="50px"><br>
+                         <span class="footerLinks">Github</span>
+                        </button>
+                      </li>
+
+                      <li class="linkedin">
+                        <button class = "footerButtons" onclick="location.href = 'https://www.linkedin.com/in/muhammad-naufal-nadeem-41a26015a/';" >
+                         <img class="footerImgPading linkedin1" src="images/linkedin.png" height="50px" width="50px"><br>
+                         <span class="footerLinks">LinkedIn</span>
+                        </button>
+                      </li>
+
+                </ul>
+<br>
+              <br>
+              <br>
+          </div>
+
+      </div>
+
+   <script type="text/javascript">
+
+      document.write('<style>body { visibility: hidden; } </style>');
+
+      if (!(screen.width <= 1000))
+      {
+        document.write('<script type="text/javascript" src="js/TweenLite.min.js"><\/script>');
+        document.write('<script type="text/javascript" src="js/EasePack.min.js"><\/script>');
+        document.write('<script type="text/javascript" src="js/demo-1.js"><\/script>');
+      }
+
+   </script>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+   <script type="text/javascript">
+
+    $(".contentContainer").css("min-height",$(window).height());
+
+    var windowHeight = $(window).height();
+    var introductionDivHeight = (50*windowHeight)/100;
+
+    $("#introductionDiv").css("min-height",introductionDivHeight);
+
+    var x = $("#landingPanel").css("height");
+    var y = $("#landingPanel").css("width");
+
+    $("#emptyDiv").css("height", x);
+    $("#demo-canvas").css("width", y);
+
+    $("#large-header").css("height",x);
+
+    if($(window).width() < 1000){
+      $("#buttonList li").css("width","20%");
+      $(".main-title").css("margin-top","-120px");
+      $("#fieldHeader").css("margin-top","10px");
+    }
+
+
+    $("#buttonList li").hover(function(){
+
+      var selected = $(this).attr('class');
+      var selected1 = selected+"1";
+
+      if(!($(window).width() < 1000))
+        var notMobile = true;
+
+      switch(selected1) {
+
+      case "email1":
+          if(notMobile)
+            $('.email span').text("umarjuni011@gmail.com");
+          break;
+
+         case "email2":
+          if(notMobile)
+            $('.email span').text("umarjuni011@gmail.com");
+          break;
+
+   
+      case "github1":
+          if(notMobile)
+            $('.github span').text("https://github.com/umarjuni011/");
+          break;
+    
+              
+              
+
+        
+      default:
+
+      }
+
+      }, function() {
+      var selected = $(this).attr('class');
+      var selected1 = selected+"1";
+
+      switch(selected1) {
+
+      case "email1":
+          $('.email span').text("Email");
+          break;
+
+           case "email2":
+          $('.email span').text("Email");
+          break;
+
+      case "twitter1":
+          $('.twitter span').text("Twitter");
+          break;
+
+      case "github1":
+          $('.github span').text("Github");
+          break;
+
+      case "linkedin1":
+          $('.linkedin span').text("LinkedIn");
+          break;
+
+      default:
+      }
+
+    });
+
+    $(window).scroll(function() {
+      if($(window).scrollTop()+50 > $("#landingPanel").height()) 
+            $(".navbar").css("background","rgba(0,0,0,1)");
+      
+    else 
+            $(".navbar").css("background","rgba(0,0,0,0.4)");
+      
+    });
+
+    $(document).on('click', 'a', function(event){
+      event.preventDefault();
+
+      $('html, body').animate({
+          scrollTop: $( $.attr(this, 'href') ).offset().top
+      }, 500);
+    });
+
+    var $root = $('html, body');
+
+    $('a').click(function() {
+      $root.animate({
+      scrollTop: $( $.attr(this, 'href') ).offset().top
+      }, 500);
+      return false;
+    });
+
+
+    $(window).load(function() {
+      $("body").css("visibility","visible");
+    });
+
+   </script>
+
+  </body>
+</html>
